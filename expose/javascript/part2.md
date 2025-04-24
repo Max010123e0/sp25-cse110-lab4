@@ -33,3 +33,8 @@
  F. true, since Boolean(2) gives 'true', which is same type and value to the former value.
 15. '==' operator converts one of the variables into the same type with the other variable, and it checks their equalty. Therefore, it can hold true when the values are same, even if their ty[es are different. However, '===' checks both value and types, which performs a more rigorous comparison.
 17. The function results [2, 4, 6]. Notice that function modifyArray takes doSomething as a callback function, which means it doubles the values within the array on every iteration. Therefore, by multiply each element by 2, the result is [2, 4, 6].
+19. 
+    1
+    4
+    3
+    2
